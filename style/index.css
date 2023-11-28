@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@font-face {
+  font-family: Lato;
+  font-display: swap;
+  src: url("../fonts/Lato-Regular.woff2") format "woff2", url("../fonts/Lato-Regular.woff") format "woff";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format "woff2", url("../fonts/PlayfairDisplay-Regular.woff") format "woff";
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #E1FBFE;
+  padding: 10px;
+}
+
+span {
+  font-size: 18px;
+}
+
+button {
+  display: block;
+  align-self: center;
+  justify-content: flex-end;
+  border: 1px solid #016bcc;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+button:hover {
+  background-color: #016bcc;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 20px;
+  padding-top: 50px;
+  font-family: Lato, sans-serif;
+}
+.block > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 0;
+  width: 30%;
+  min-width: 300px;
+  background-color: white;
+  border: 1px solid #016bcc;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  flex: 1 1 auto;
+}
+form div {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+input {
+  width: 100px;
+  border-bottom: 1px solid gray;
+  padding-left: 10px;
+}
+input:focus {
+  border-bottom: 1px solid #016bcc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #016bcc;
+}
+
+.logo_img {
+  width: 4%;
+  padding: 0 0 5% 0;
+  overflow: hidden;
+  position: relative;
+  margin-right: 20px;
+}
+.logo_img img,
+.logo_img iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+}
+.navigation a {
+  font-size: 25px;
+  color: #016bcc;
+  position: relative;
+}
+.navigation a:hover::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #09A0D5;
+  position: absolute;
+  display: block;
+}
+
+.font_size {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: calc(16px + 4 * (100vw - 320px) / 880);
+  }
+  .block {
+    padding-top: calc(20px + 30 * (100vw - 320px) / 880);
+  }
+  span {
+    font-size: calc(14px + 4 * (100vw - 320px) / 880);
+  }
+  .navigation {
+    margin-top: calc(10px + 10 * (100vw - 320px) / 880);
+  }
+  .navigation a {
+    font-size: calc(18px + 12 * (100vw - 320px) / 880);
+  }
+  .logo a {
+    font-size: calc(20px + 16 * (100vw - 320px) / 880);
+  }
+  .font_size {
+    font-size: calc(14px + 2 * (100vw - 320px) / 880);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

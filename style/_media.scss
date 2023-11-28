@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  h3{
+    font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .block {
+    padding-top: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+  }
+  span {
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .navigation {
+    margin-top: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
+    & a {
+      font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1200 - 320)));
+    }
+  }
+  .logo{
+    & a{
+      font-size: calc(20px + (36 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+  }
+  .font_size{
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1370px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 550px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 320px) {
+}
+@media (prefers-color-scheme: dark) {
+}

@@ -1,0 +1,100 @@
+@import "reset";
+@import "mixins";
+@import "font";
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header{
+  background-color: #E1FBFE;
+  padding: 10px;
+}
+span {
+  font-size: 18px;
+}
+button {
+  display: block;
+  align-self: center;
+  justify-content: flex-end;
+  border: 1px solid #016bcc;
+  padding: 5px;
+  transition: all .5s ease;
+  &:hover{
+    background-color: #016bcc;
+    color: white;
+  }
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.block {
+  @include flexBox(space-around, stretch, 20px);
+  padding-top: 50px;
+  font-family: Lato, sans-serif;
+  & > div{
+    @include flexBox(flex-start, stretch, 0, column);
+    width: 30%;
+    min-width: 300px;
+    background-color: white;
+    border: 1px solid #016bcc;
+    text-align: center;
+    padding: 10px;
+  }
+}
+form{
+  @include flexBox(flex-start, flex-start, 15px, column);
+  flex: 1 1 auto;
+  & div{
+    flex: 1 1 auto;
+    text-align: left;
+  }
+}
+input{
+  width: 100px;
+  border-bottom: 1px solid gray;
+  padding-left: 10px;
+  &:focus {
+    border-bottom: 1px solid #016bcc;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  & a{
+    font-family: "Playfair Display", serif;
+    font-size:36px;
+    font-style: italic;
+    color:  #016bcc;
+  }
+}
+.logo_img {
+  @include adaptiveImg(5%, 4%);
+  margin-right: 20px;
+}
+.navigation {
+  @include flexBox(flex-start, flex-start, 15px, column);
+  margin-top: 20px;
+  & a {
+    font-size: 25px;
+    color:  #016bcc;
+    position: relative;
+    &:hover{
+      &::after {
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: #09A0D5;
+        position: absolute;
+        display: block;
+      }
+    }
+  }
+}
+.font_size{
+  font-size: 16px;
+}
+@import "media";
