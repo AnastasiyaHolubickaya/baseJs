@@ -1,4 +1,4 @@
-import * as functions from "../../js/modules/cyclesFunctions.js";
+import * as functions from "./cyclesFunctions.js";
 document.addEventListener("DOMContentLoaded", function () {
   function handleClick  (){
     functions.binaryChearch();

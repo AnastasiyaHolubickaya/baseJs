@@ -47,3 +47,4 @@ export const data = () =>{
   newDate.setDate(newDate.getDate() + 1);
   console.log(`next date: ${newDate}`);
 };
+//throw new Error('ds pf,skb');
