@@ -1,4 +1,4 @@
-import * as functions from "../../js/modules/functions.js";
+import * as functions from "../../js/modules/baseFunctions.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   const formSearchCircleArea = document.forms.formSearchCircleArea;

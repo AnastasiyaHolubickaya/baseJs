@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0edb14-54b6-4ee1-bc5a-055f2c5daa2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/base/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/types/dataType.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/types/dataType.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/functions.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +20,20 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Yp4gkCELo3W0SCIqvLYxMhM7OK" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -51,6 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701209300276</updated>
       <workItem from="1701209303660" duration="5651000" />
+      <workItem from="1701294615336" duration="9650000" />
+      <workItem from="1701349353983" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -62,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

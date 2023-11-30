@@ -1,4 +1,4 @@
-import * as functions from "../../js/modules/functions.js";
+import * as functions from "../../js/modules/typeFunctions.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   //получаем  dom elements
