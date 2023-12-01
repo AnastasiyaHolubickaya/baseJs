@@ -1,6 +1,7 @@
 import * as functions from "./baseFunctions.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+
   const formSearchCircleArea = document.forms.formSearchCircleArea;
   const formSearchSpeed = document.forms.formSearchSpeed;
   const formConverter = document.forms.formConverter;
@@ -8,9 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function handleInputResultChange(){
     formSearchCircleArea.inputResult.value = functions.areaCircle( formSearchCircleArea.inputRadius.value );
   }
+
   function handleInputResCurrencyChange(){
     formConverter.inputResCurrency.value = functions.converter(formConverter.inputCurrency.value)
   }
+
   let dist = 0;
   let time = 0;
   function handleInputSpeedResChange(e){
@@ -25,8 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
       formSearchSpeed.inputSpeedRes.value = functions.speed(dist, time);
     }
   }
+
   formSearchSpeed.addEventListener("change", handleInputSpeedResChange);
+
   formConverter.inputCurrency.addEventListener("change", handleInputResCurrencyChange);
+
   formSearchCircleArea.inputRadius.addEventListener("change", handleInputResultChange);
 
   function removeEventHandler() {
@@ -35,5 +41,4 @@ document.addEventListener("DOMContentLoaded", function () {
     formSearchCircleArea.inputRadius.removeEventListener("change", handleInputResultChange);
   }
   window.addEventListener("beforeunload", removeEventHandler );
-
 });

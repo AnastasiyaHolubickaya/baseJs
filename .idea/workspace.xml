@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0edb14-54b6-4ee1-bc5a-055f2c5daa2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modules/cyclesFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modules/cyclesFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/base/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,7 +32,14 @@
   <component name="ProjectId" id="2Yp4gkCELo3W0SCIqvLYxMhM7OK" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Anastasiya\beetRoot\js\gitHubBaseJs\baseJs\homeworks\cycles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +66,8 @@
       <workItem from="1701209303660" duration="5651000" />
       <workItem from="1701294615336" duration="9650000" />
       <workItem from="1701349353983" duration="1289000" />
-      <workItem from="1701350803292" duration="2746000" />
+      <workItem from="1701350803292" duration="4157000" />
+      <workItem from="1701441894471" duration="13429000" />
     </task>
     <servers />
   </component>
