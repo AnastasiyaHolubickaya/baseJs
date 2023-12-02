@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0edb14-54b6-4ee1-bc5a-055f2c5daa2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/functions/areaCalc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeworks/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/base/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/base/baseFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/base/converter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/cycles/cycles.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/cycles/cycles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/cycles/cycles.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/cycles/cycles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/cycles/cyclesFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/cycles/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/functions/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/functions/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/functions/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/functions/moduleFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/types/dataType.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/types/dataType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/types/typeFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/types/deposit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +75,8 @@
       <workItem from="1701294615336" duration="9650000" />
       <workItem from="1701349353983" duration="1289000" />
       <workItem from="1701350803292" duration="4157000" />
-      <workItem from="1701441894471" duration="13429000" />
+      <workItem from="1701441894471" duration="20469000" />
+      <workItem from="1701506577743" duration="8255000" />
     </task>
     <servers />
   </component>
