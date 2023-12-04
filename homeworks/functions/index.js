@@ -17,8 +17,12 @@ console.log(isUniteNumbers(0, 67, 4));
 console.log(`areaCalc - ${areaCalc(Number(5))}`);
 
 let minNum = prompt("enter min number");
-let maxNum = prompt("enter max number");
+let maxNum = '';
 
-isPerfectNumbers(Number(minNum), Number(maxNum));
+!minNum ? console.log("скасування") : maxNum = prompt("enter max number");
+
+!maxNum ? console.log("скасування") : isPerfectNumbers(Number(minNum), Number(maxNum));
+
+
 
 
