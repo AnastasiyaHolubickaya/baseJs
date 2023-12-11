@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c0edb14-54b6-4ee1-bc5a-055f2c5daa2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/base/areaCircle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/base/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/base/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/base/converter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/base/speed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/cycles/binarySearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/cycles/cycles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/cycles/cycles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/cycles/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/cycles/multiple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/functions/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/functions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/functions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/calculation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/dataType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/dataTypes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/deposit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/flashDriveSize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/types/revers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/objects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/objects/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +74,14 @@
       <workItem from="1701517931155" duration="10316000" />
       <workItem from="1701620392425" duration="11853000" />
       <workItem from="1701671657296" duration="9194000" />
-      <workItem from="1701726752659" duration="603000" />
+      <workItem from="1701726752659" duration="9832000" />
+      <workItem from="1701792872777" duration="3381000" />
+      <workItem from="1701880593842" duration="8928000" />
+      <workItem from="1701961452263" duration="4082000" />
+      <workItem from="1702128363679" duration="778000" />
+      <workItem from="1702132991169" duration="27900000" />
+      <workItem from="1702286571516" duration="2500000" />
+      <workItem from="1702316154739" duration="1061000" />
     </task>
     <servers />
   </component>
