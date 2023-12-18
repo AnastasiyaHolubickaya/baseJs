@@ -1,16 +1,11 @@
 //counting the sum all products
-function calculateTotalSum(array) {
-  if (!Array.isArray(array)) {
-    throw new Error('not array!');
-  }
 
-  let totalSum = 0;
-
-  array.forEach((item) => {
+function calculateTotalSum(list) {
+  return list.reduce((totalSum, item) => {
     totalSum += item.quantity * item.price;
-  });
 
-  return totalSum;
+    return totalSum;
+  }, 0);
 }
 
 export default calculateTotalSum;

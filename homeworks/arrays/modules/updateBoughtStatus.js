@@ -4,15 +4,13 @@ function updateBoughtStatus(array, name) {
     throw new Error('not array!');
   }
 
-  return array.map((value) => {
-    if (!value.name) {
-      throw new Error('value name is absent');
-    }
-    if (value.name === name) {
-      return { ...value, bought: true };
-    }
-    return value;
-  });
+  const index = array.findIndex((item) => item.name === name);
+
+  const updatedArray = [...array];
+
+  updatedArray[index].bought = true;
+
+  return updatedArray;
 }
 
 export default updateBoughtStatus;

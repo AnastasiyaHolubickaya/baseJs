@@ -1,15 +1,16 @@
-//сортування продуктів в залежності від суми
-function sortBySum(array, sort = true) {
-  if (!Array.isArray(array)) {
-    throw new Error('not array!');
+//sort by sum
+function sortBySum(list, typeOfSort = true) {
+  if (list.some((item) => !item.sum)) {
+    throw new Error('One or more objects do not contain a value - sum');
   }
 
-  return array.toSorted((item1, item2) => {
-    if (!item1.sum || !item2.sum) {
-      throw new Error('the objects does not contain a value - sum');
-    }
-    return sort ? item1.sum - item2.sum : item2.sum - item1.sum;
-  });
+  const sortedList = list.toSorted((item1, item2) => item1.sum - item2.sum);
+
+  if (!typeOfSort) {
+    sortedList.reverse();
+  }
+
+  return sortedList;
 }
 
 export default sortBySum;

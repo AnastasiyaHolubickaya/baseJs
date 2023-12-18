@@ -1,9 +1,9 @@
-import sortShoppingList from './modules/sortShoppingList.js';
+import sortList from './modules/sortShoppingList.js';
 import updateBoughtStatus from './modules/updateBoughtStatus.js';
 import removeFromArray from './modules/removeFromArray.js';
 import pushToArray from './modules/pushToArray.js';
 import calculateTotalSum from './modules/calculateTotalSum.js';
-import calculateSumByCategory from './modules/calculateNotBoughtSum.js';
+import calculateSumByCategory from './modules/calculateSumByCategory.js';
 import sortBySum from './modules/sortBySum.js';
 
 const shoppingList = [
@@ -30,21 +30,23 @@ const shoppingList = [
   },
 ];
 
-console.log(sortShoppingList(shoppingList));
+console.log(sortList(shoppingList, 'price'));
 console.log(removeFromArray(shoppingList, 'bread'));
 console.log(updateBoughtStatus(shoppingList, 'wine', true));
-pushToArray(shoppingList, {
+
+console.log(sortList(shoppingList));
+
+const newList = pushToArray(shoppingList, {
   name: 'rom',
   quantity: 2,
   price: 4,
   sum: 8,
   bought: false,
 });
-console.log(sortShoppingList(shoppingList));
-console.log(calculateTotalSum(shoppingList));
+console.log(calculateTotalSum(newList));
 console.log(
   `сума придбаних товарів - ${
-    calculateSumByCategory(shoppingList)[0]
-  }, сума не придбаних товарів - ${calculateSumByCategory(shoppingList)[1]}`
+    calculateSumByCategory(newList)[0]
+  }, сума не придбаних товарів - ${calculateSumByCategory(newList)[1]}`
 );
-console.log(sortBySum(shoppingList, false));
+console.log(sortBySum(newList));
